@@ -91,6 +91,11 @@ section{
 .hero-img img{
     width: 100%;
     height: auto;
+  
+}
+.hero-img{
+    transition: all 0.6s ease-in-out;
+    cursor: pointer;
 }
 .hero-text h1{
     font-size: var(--big-font);
@@ -265,4 +270,7 @@ section{
         width: 360px;
         margin:0 auto;
     }
+}
+.hero-img:hover{
+    transform: scale(1.1);
 }
